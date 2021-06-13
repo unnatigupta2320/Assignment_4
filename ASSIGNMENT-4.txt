@@ -133,13 +133,13 @@ columns=fullflexible
 \renewcommand{\thetable}{\theenumi}
 Download all python codes from 
 \begin{lstlisting}
-https://github.com/unnatigupta2320/Assignment-4/tree/master/CODES
+https://github.com/unnatigupta2320/Assignment_4/tree/master/CODES
 \end{lstlisting}
 %
 and latex-tikz codes from 
 %
 \begin{lstlisting}
-https://github.com/unnatigupta2320/Assignment-4
+https://github.com/unnatigupta2320/Assignment_4
 \end{lstlisting}
 %
 \section{Question No. 2.17}
@@ -288,20 +288,23 @@ d\textsubscript{3}&=2.828 \text{ units}
  \theta\textsubscript{3} &= -45\degree
 \end{align}
 \end{itemize}
+
 \item If,
 \\
 \textbf{d\textsubscript{n}}=Perpendicular distance of line from origin
 \\
+\\
 \textbf{m\textsubscript{pn}}=Slope of the perpendicular to the line 
+\\
 \\
 $\theta\textsubscript{n}$= Angle of perpendicular with positive x-axis.
 \\
+\item All the given and calculated data can be tabularised in table as \ref{tab:table1}:
 \end{enumerate}
-All the given and calculated data can be tabularised in table as \ref{tab:table1}:
 \numberwithin{table}{section}
 \begin{table}[!ht]
 \begin{center}
-\begin{tabular}{ | m{2cm} | m{1.5cm}| m{2cm} | m{1.5cm} |} 
+\begin{tabular}{ | m{2cm} | m{1.2cm}| m{1.2cm} | m{1.2cm} |} 
 \hline
  & Line1 & Line2 & Line3 \\
 \hline
@@ -320,5 +323,34 @@ $\theta\textsubscript{1}$,$\theta\textsubscript{2}$,$\theta\textsubscript{3}$& $
 \caption{Data:-Given and Calculated}
 \label{tab:table1}
 \end{table}
+\begin{enumerate}[label=\alph*.]
+    \item Plot of Line1 :-
 
+\numberwithin{figure}{section}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Line1 and it's perpendicular.png}
+\caption{Line1 and it's perpendicular}
+\label{fig:circle}	
+\end{figure}
+
+
+ \item Plot of Line2 :-
+\numberwithin{figure}{section}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Line2 and it's perpendicular.png}
+\caption{Line2 and it's perpendicular}
+\label{fig:circle}	
+\end{figure}
+ \item Plot of Line3 :-
+\numberwithin{figure}{section}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Line3 and it's perpendicular.png}
+\caption{Line3 and it's perpendicular}
+\label{fig:circle}	
+\end{figure}
+
+\end{enumerate}
 \end{document}
