@@ -177,7 +177,7 @@ $\vec{n\textsubscript{1}}$,$\vec{n\textsubscript{2}}$,$\vec{n\textsubscript{3}}$
 \begin{align}
 d=\frac { \left| c-\vec{n}^T\vec{A} \right| }{ \norm{\vec{n}} }
 \end{align}
-where,$\vec{n}=\myvec{n\textsubscript{1}\\n\textsubscript{2}}$ is the normal vector of line.
+where,$\vec{n}=\myvec{x\textsubscript{L}\\y\textsubscript{L}}$ is the normal vector of line.
 
 \item If we have to find distance from origin, then above formula get reduced to:
 \begin{align}
@@ -188,15 +188,17 @@ d&=\frac { \left| c \right| }{\norm{\vec{n}}}\label{eqA}
 \begin{itemize}
  \item If the normal vector $\vec{n\textsubscript{L}}$ of a line is:-
     \begin{align}
-   \vec{n\textsubscript{L}}=\myvec{n\textsubscript{1}\\n\textsubscript{2}}     
+   \vec{n\textsubscript{L}}=\myvec{x\textsubscript{L}\\y\textsubscript{L}}     
     \end{align}
 \item Then the normal vector $\vec{n\textsubscript{P}}$ of a line perpendicular to it is:
 \begin{align}
-   \vec{n\textsubscript{p}}=\myvec{-n\textsubscript{2}\\n\textsubscript{1}}    \label{eqa} 
+   \vec{n\textsubscript{p}}=\myvec{-y\textsubscript{L}\\x\textsubscript{L}}    \label{eqa} 
     \end{align}
 \item Also, slope of perpendicular line,m\textsubscript{P} can be written as:
 \begin{align}
- m\textsubscript{p}=\frac{-(-n\textsubscript{2})}{n\textsubscript{1}}  \label{eqb}
+ m\textsubscript{p}&=\frac{-(-y\textsubscript{L})}{x\textsubscript{L}} 
+ \\
+ m\textsubscript{p}&=\frac{y\textsubscript{L}}{x\textsubscript{L}}  \label{eqb}
  \end{align}
 \item If a line with slope \text{m\textsubscript{p}} makes an angle $\theta$ with positive x-axis,then:
 \begin{align}
@@ -221,7 +223,7 @@ d\textsubscript{1}&=\frac{8}{2}=4\text{ units}
 \end{align}
 \item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p1}}$ of the line perpendicular to given line is: 
 \begin{align}
-    \vec{n\textsubscript{p1}}=\myvec{\sqrt{3},1}
+    \vec{n\textsubscript{p1}}=\myvec{\sqrt{3}\\1}
 \end{align}
 \item Using \eqref{eqb} the slope of this perpendicular line is given by:
 \begin{align}
@@ -254,7 +256,7 @@ d\textsubscript{2}&=2 \text{ units}
 \end{align}
 \item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p2}}$ of the line perpendicular to given line is: 
 \begin{align}
-    \vec{n\textsubscript{p2}}=\myvec{-1,0}
+    \vec{n\textsubscript{p2}}=\myvec{-1\\0}
 \end{align}
 \item Using \eqref{eqb} the slope of this perpendicular line is given by:
 \begin{align}
@@ -275,7 +277,7 @@ d\textsubscript{2}&=2 \text{ units}
 \begin{itemize}
 \item We have:
 \begin{align}
- c\textsubscript{3}= -4 {\vec{n\textsubscript{3}}}=\myvec{1\\-1}   
+ c\textsubscript{3}= -4 ,{\vec{n\textsubscript{3}}}=\myvec{1\\-1}   
 \end{align}
 \item Using \eqref{eqA} we get:
 \begin{align}
@@ -291,7 +293,7 @@ d\textsubscript{3}&=2.828 \text{ units}
 \end{align}
 \item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p3}}$ of the line perpendicular to given line is: 
 \begin{align}
-    \vec{n\textsubscript{p3}}=\myvec{1,1}
+    \vec{n\textsubscript{p3}}=\myvec{1\\1}
 \end{align}
 \item Using \eqref{eqb} the slope of this perpendicular line is given by:
 \begin{align}
@@ -317,7 +319,6 @@ d\textsubscript{3}&=2.828 \text{ units}
 \\
 \\
 $\theta\textsubscript{n}$= Angle of perpendicular with positive x-axis.
-\\
 \item All the calculated data can be tabularised in table  \ref{tab:table2}:
 \end{enumerate}
 \numberwithin{table}{section}
