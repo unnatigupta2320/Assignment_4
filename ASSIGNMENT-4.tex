@@ -177,7 +177,6 @@ $\vec{n\textsubscript{1}}$,$\vec{n\textsubscript{2}}$,$\vec{n\textsubscript{3}}$
 \begin{align}
 d=\frac { \left| c-\vec{n}^T\vec{A} \right| }{ \norm{\vec{n}} }
 \end{align}
-where,$\vec{n}=\myvec{x\textsubscript{L}\\y\textsubscript{L}}$ is the normal vector of line.
 
 \item If we have to find distance from origin, then above formula get reduced to:
 \begin{align}
@@ -186,32 +185,26 @@ d&=\frac { \left| c \right| }{\norm{\vec{n}}}\label{eqA}
 \end{itemize}
 \item For finding angle between the perpendicular and positive x-axis:-
 \begin{itemize}
- \item If the normal vector $\vec{n\textsubscript{L}}$ of a line is:-
-    \begin{align}
-   \vec{n\textsubscript{L}}=\myvec{x\textsubscript{L}\\y\textsubscript{L}}     
-    \end{align}
-\item Then the normal vector $\vec{n\textsubscript{P}}$ of a line perpendicular to it is:
+\item If the normal vector of line is $\vec{n}$,then:
 \begin{align}
-   \vec{n\textsubscript{p}}=\myvec{-y\textsubscript{L}\\x\textsubscript{L}}    \label{eqa} 
-    \end{align}
-\item Also, slope of perpendicular line,m\textsubscript{P} can be written as:
-\begin{align}
- m\textsubscript{p}&=\frac{-(-y\textsubscript{L})}{x\textsubscript{L}} 
+ \vec{n}&=\myvec{1\\a\textsubscript{n}} \text{ or,} \label{eq1} 
  \\
- m\textsubscript{p}&=\frac{y\textsubscript{L}}{x\textsubscript{L}}  \label{eqb}
- \end{align}
-\item If a line with slope \text{m\textsubscript{p}} makes an angle $\theta$ with positive x-axis,then:
+ \vec{n}&=\myvec{1\\ \tan\theta}   
+\end{align}
+\item where $\theta$ = the angle which perpendicular makes with positive x-axis,
 \begin{align}
-\implies\tan\theta&= m\textsubscript{p}
+\implies\tan\theta&= a\textsubscript{n}
   \\
- \implies \theta &= \tan^{-1}( m\textsubscript{p})\label{eqD}
+ \implies \theta &= \tan^{-1}( a\textsubscript{n})\label{eqD}
 \end{align}
 \end{itemize}
 \item For $Line_1$, $\myvec{1&-\sqrt{3}}\vec{x}$ =$-8$
 \begin{itemize}
 \item We have:
 \begin{align}
- c\textsubscript{1}=8 , {\vec{n\textsubscript{1}}}=\myvec{1\\-\sqrt{3}}   
+ c\textsubscript{1}&=8 
+ \\
+ {\vec{n\textsubscript{1}}}&=\myvec{1\\-\sqrt{3}} \label{eq2}  
 \end{align}
 \item Using \eqref{eqA} we get:
 \begin{align}
@@ -221,19 +214,13 @@ d\textsubscript{1}&=\frac{8}{\sqrt{1+3}}
 \\
 d\textsubscript{1}&=\frac{8}{2}=4\text{ units}
 \end{align}
-\item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p1}}$ of the line perpendicular to given line is: 
+\item On comparing \eqref{eq1} and\eqref{eq2} we get:
 \begin{align}
-    \vec{n\textsubscript{p1}}=\myvec{\sqrt{3}\\1}
+ a\textsubscript{1}=-\sqrt{3}  \label{eq3} 
 \end{align}
-\item Using \eqref{eqb} the slope of this perpendicular line is given by:
+\item Putting \eqref{eq3} in \eqref{eqD} the angle which perpendicular is making with positive x-axis is:
 \begin{align}
-  m\textsubscript{p1}&=\frac{-\sqrt{3}}{1}
-  \\
-  m\textsubscript{p1}&=-\sqrt{3}
-\end{align}
-\item Using \eqref{eqD}the angle which perpendicular is making with positive x-axis is:
-\begin{align}
-    \theta\textsubscript{1} &= \tan^{-1}( m\textsubscript{p\textsubscript{1}})
+    \theta\textsubscript{1} &= \tan^{-1}(  a\textsubscript{1})
     \\
     \theta\textsubscript{1} &=\tan^{-1}(-\sqrt{3})
     \\
@@ -244,7 +231,9 @@ d\textsubscript{1}&=\frac{8}{2}=4\text{ units}
 \begin{itemize}
 \item We have:
 \begin{align}
- c\textsubscript{2}=-2 ,{\vec{n\textsubscript{2}}}=\myvec{0\\1}   
+ c\textsubscript{2}=-2 
+ \\
+ {\vec{n\textsubscript{2}}}=\myvec{0\\1}  
 \end{align}
 \item Using \eqref{eqA} we get:
 \begin{align}
@@ -254,30 +243,20 @@ d\textsubscript{2}&=\frac{2}{\sqrt{1}}
 \\
 d\textsubscript{2}&=2 \text{ units}
 \end{align}
-\item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p2}}$ of the line perpendicular to given line is: 
+\item Here,the line\textsubscript{2} is parallel to x-axis.
+\\
+So,the angle it's perpendicular is making with positive x-axis is:
 \begin{align}
-    \vec{n\textsubscript{p2}}=\myvec{-1\\0}
-\end{align}
-\item Using \eqref{eqb} the slope of this perpendicular line is given by:
-\begin{align}
-  m\textsubscript{p2}&=\frac{-{1}}{0}
-  \\
-  \implies m\textsubscript{p2}&=\infty 
-\end{align}
-\item Using \eqref{eqD}the angle which perpendicular is making with positive x-axis is:
-\begin{align}
-    \theta\textsubscript{2} &= \tan^{-1}( m\textsubscript{p\textsubscript{2}})
-    \\
-    \theta\textsubscript{2} &=\tan^{-1}(\infty)
-    \\
- \theta\textsubscript{2} &= 90\degree
+\therefore \theta\textsubscript{2} &= 90\degree
 \end{align}
 \end{itemize}
 \item For $Line_3$,$\myvec{1&-1}\vec{x} =4$
 \begin{itemize}
 \item We have:
 \begin{align}
- c\textsubscript{3}= -4 ,{\vec{n\textsubscript{3}}}=\myvec{1\\-1}   
+ c\textsubscript{3}&= -4 
+ \\
+ {\vec{n\textsubscript{3}}}&=\myvec{1\\-1}   \label{eq4}
 \end{align}
 \item Using \eqref{eqA} we get:
 \begin{align}
@@ -291,36 +270,28 @@ d\textsubscript{3}&=\frac{4}{1.41}
 \\
 d\textsubscript{3}&=2.828 \text{ units}
 \end{align}
-\item Using \eqref{eqa},the normal vector $\vec{n\textsubscript{p3}}$ of the line perpendicular to given line is: 
+
+\item On comparing \eqref{eq1} and\eqref{eq4} we get:
 \begin{align}
-    \vec{n\textsubscript{p3}}=\myvec{1\\1}
+ a\textsubscript{3}=-1  \label{eq5} 
 \end{align}
-\item Using \eqref{eqb} the slope of this perpendicular line is given by:
+\item Putting \eqref{eq5} in \eqref{eqD} the angle which perpendicular is making with positive x-axis is:
 \begin{align}
-  m\textsubscript{p3}&=\frac{-1}{1}
-  \\
- m\textsubscript{p3}&=-1
-\end{align}
-\item Using \eqref{eqD}the angle which perpendicular is making with positive x-axis is:
-\begin{align}
-    \theta\textsubscript{3} &= \tan^{-1}( m\textsubscript{p\textsubscript{3}})
+    \theta\textsubscript{3} &= \tan^{-1}(  a\textsubscript{3})
     \\
     \theta\textsubscript{3} &=\tan^{-1}(-1)
     \\
- \theta\textsubscript{3} &= -45\degree
+ \theta\textsubscript{1} &= -45\degree
 \end{align}
 \end{itemize}
 \item If,
-\\
-\textbf{d\textsubscript{n}}=Perpendicular distance of line from origin
-\\
+\textbf{d\textsubscript{n}}=Perpendicular distance of line from the  origin
 \\
 \textbf{m\textsubscript{pn}}=Slope of the perpendicular to the line 
 \\
-\\
 $\theta\textsubscript{n}$= Angle of perpendicular with positive x-axis.
-\item All the calculated data can be tabularised in table  \ref{tab:table2}:
-\end{enumerate}
+\item Then, All the calculated data can be tabularised in table  \ref{tab:table2}:
+
 \numberwithin{table}{section}
 \begin{table}[!ht]
 \begin{center}
@@ -340,11 +311,11 @@ $\theta\textsubscript{1}$,$\theta\textsubscript{2}$,$\theta\textsubscript{3}$& $
 \label{tab:table2}
 \end{table}
 
-\begin{itemize}
-    \item The plots of all the three lines and there respective perpendiculars are as follows:-
-\end{itemize}
+\item The plots of all the three lines and there respective perpendiculars are as follows:-
+    \\
+\end{enumerate}
 
-\begin{enumerate}[label=(\Alph*)]
+\begin{itemize}
 \item Plot of Line\textsubscript{1} :-
 \numberwithin{figure}{section}
 \begin{figure}[H]
@@ -370,5 +341,5 @@ $\theta\textsubscript{1}$,$\theta\textsubscript{2}$,$\theta\textsubscript{3}$& $
 \label{fig:circle}	
 \end{figure}
 
-\end{enumerate}
+\end{itemize}
 \end{document}
